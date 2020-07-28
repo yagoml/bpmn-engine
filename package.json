@@ -1,0 +1,23 @@
+{
+  "name": "bpmn",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bpmn-engine": "^9.1.1",
+    "camunda-bpmn-moddle": "^4.4.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "fs": "^0.0.1-security",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "moddle-context-serializer": "^0.16.0",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0"
+  }
+}
